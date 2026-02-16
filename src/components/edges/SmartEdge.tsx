@@ -38,7 +38,7 @@ export default function SmartEdge({
                     }}
                     className="nodrag nopan flex items-center gap-1 group"
                 >
-                    {data?.label && typeof data.label === 'string' && (
+                    {typeof data?.label === 'string' && (
                         <div className="bg-[#1a1a1a] text-white/90 px-2 py-1 rounded border border-[#333] shadow-sm">
                             {data.label}
                         </div>
